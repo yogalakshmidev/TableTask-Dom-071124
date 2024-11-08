@@ -1,0 +1,18 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+.table{
+  border: 2px solid red;
+  background-color: gray;
+  color: yellow;
+  padding: 100px;
+}
+.table td,th{
+  padding: 20px;
+}
+.table tr:nth-of-type(even), th{
+  background-color:azure;
+  color:black
+}

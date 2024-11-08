@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Employee Details</title>
+  <link rel="stylesheet" href="style.css" class="href">
+</head>
+<body>
+  
+  
+  <div>
+  <table class="table">
+    <thead></thead>
+    <tbody></tbody>
+  </table></div>
+  <script src ="./dataTable.js"></script>
+  <script>
+    function getTh(){
+      const column = Object.keys(Data[0]);
+      const head=document.querySelector('thead');
+      let tags="<tr>";
+        for(i = 0;i < column.length; i++){
+          tags += `<th>${column[i]}</th>`;
+        }
+        tags += "</tr>";
+        head.innerHTML=tags;
+
+        getTd();
+      }
+    getTh();
+
+
+    // 
+    function getTd(){
+      const body=document.querySelector(`tbody`);
+      let tags=" ";
+      Data.map(d=>{
+        tags += `<tr>
+          <td>${d.Name}</td>
+          <td>${d.Age}</td>
+          <td>${d.Designation}</td>
+          <td>${d.Salary}</td>
+          <td>${d.City}</td>
+          <td>${d.Country}</td>
+          </tr>`
+      })
+      body.innerHTML=tags;
+    }
+  </script>
+</body>
+</html>

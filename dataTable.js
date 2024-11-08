@@ -1,0 +1,42 @@
+const Data=[
+  {
+    "Name":"John Doe",
+    "Age":"25",
+    "Designation":"Web Developer",
+    "Salary":"$1000",
+    "City":"New York",
+    "Country":"USA",
+  },
+  {
+    "Name":"Jane Doe",
+    "Age":"25",
+    "Designation":"UX/UI Designer",
+    "Salary":"$800",
+    "City":"California",
+    "Country":"USA",
+  },
+  {
+    "Name":"Alex Smith",
+    "Age":"35",
+    "Designation":"Project Manager",
+    "Salary":"$1200",
+    "City":"Texas",
+    "Country":"USA",
+  },
+  {
+    "Name":"John Doe",
+    "Age":"40",
+    "Designation":"Business Analyst",
+    "Salary":"$1500",
+    "City":"Florida",
+    "Country":"USA",
+  },
+  {
+    "Name":"John Doe",
+    "Age":"28",
+    "Designation":"HR Manager",
+    "Salary":"$900",
+    "City":"Washington",
+    "Country":"USA",
+  },
+]
